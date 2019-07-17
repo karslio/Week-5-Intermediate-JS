@@ -85,27 +85,23 @@ function reverseText(e){
   // Example input: reverseWords('I love JavaScript!')
   // Example output: 'I evol !tpircSavaJ'
   
-  
-  
-  function reverseText(e){
-    let array1 = e.split('');
-    var text ='';
-    for (i = array1.length- 1 ; i >= 0 ; i--) {
-      text  += array1[i] 
-    }
-     return text
-  }
-  console.log(reverseText('Hello World!'))
-  
-  function reverseWords(e){
+  function reverseWordsOfSentence(e) {
     let array = e.split(' ');
-    var text = '';
-    for (var i = 0 ; i < array.length; i++) {
-      text += (reverseText(array[i])) + ' '
+    console.log(array)
+    var reversedSentence = '';
+    for (var i = 0; i < array.length; i++) {
+      let word =array[i]
+      let text = ''
+      for (j = word.length- 1; j >= 0; j--) {
+        text += word[j]
+      }
+      reversedSentence += text + ' ';      
     }
-     return text
+    return reversedSentence
   }
-  console.log(reverseWords('I love JavaScript!'))
+  console.log(reverseWordsOfSentence('I love JavaScript!'))
+
+
   
   
   // 6. Capitalization
@@ -113,30 +109,27 @@ function reverseText(e){
   // Example input: capitalizeWords('i love javaScript!')
   // Example output: 'I Love JavaScript!
   
-  function capitalizeWords(e) {
-    let array = e.split('');
-    var textResult = '';
-    for (var i = 0; i < array.length; i++) {
-      if (i === 0) {
-        textResult += array[i].toUpperCase()
-      } else {
-        textResult += array[i].toLowerCase()
-      }
-    }
-    return textResult
-  }
-  console.log(capitalizeWords('hello'))
-  
-  
   function capitalizeSentence(e) {
     let array = e.split(' ');
-    var text = '';
+    console.log(array)
+    var capitalizedSentence = '';
     for (var i = 0; i < array.length; i++) {
-      text += (capitalizeWords(array[i])) + ' '
+      let Word = array[i]
+      let text = ''
+      for (j = 0; j < Word.length; j++) {
+        if (j === 0) {
+          text += Word[j].toUpperCase()
+        } else {
+          text += Word[j].toLowerCase()
+        }
+      }
+      capitalizedSentence += text + ' ';
     }
-    return text
+    return capitalizedSentence
   }
-  console.log(capitalizeSentence('I love JaVaScript!'))
+  
+  console.log(capitalizeSentence('I love JavaScript!'))
+
   
   // 7. Subtract two Sets
   // Given two arrays that contains integers, 
@@ -202,5 +195,5 @@ function reverseText(e){
     }
     return count
   }
-  console.log(countLetters('',['Hello','Worlds!']))
+  console.log(countLetters('e',['Hello','Worlds!']))
   

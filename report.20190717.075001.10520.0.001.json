@@ -1,0 +1,358 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20190717.075001.10520.0.001.json",
+    "dumpEventTime": "2019-07-17T07:50:01Z",
+    "dumpEventTimeStamp": "1563342601726",
+    "processId": 10520,
+    "cwd": "C:\\Users\\Lenovo Thinkpad\\Desktop\\tum belgeler\\PROGLAMLAMA\\livecoding\\Week-5-Intermediate-JS",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "-r",
+      "C:\\Users\\Lenovo Thinkpad\\.vscode\\extensions\\wallabyjs.quokka-vscode-1.0.236\\dist\\wallaby\\node_modules\\esm",
+      "C:\\Users\\Lenovo Thinkpad\\.vscode\\extensions\\wallabyjs.quokka-vscode-1.0.236\\dist\\wallaby\\server.js",
+      "runner",
+      "0",
+      "61425",
+      "quokka@1.0.0",
+      "",
+      "C:\\Users\\Lenovo Thinkpad\\Desktop\\tum belgeler\\PROGLAMLAMA\\livecoding\\Week-5-Intermediate-JS\\node_modules",
+      "quokka_fake_path\\original",
+      ""
+    ],
+    "nodejsVersion": "v12.6.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.6.0",
+      "v8": "7.5.288.22-node.14",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.38.0",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.6.0/node-v12.6.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.6.0/node-v12.6.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.6.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17134",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-4300M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 6057625,
+        "nice": 0,
+        "sys": 4307906,
+        "idle": 47486671,
+        "irq": 412265
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-4300M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 6057625,
+        "nice": 0,
+        "sys": 4307906,
+        "idle": 47486671,
+        "irq": 412265
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-4300M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 6057625,
+        "nice": 0,
+        "sys": 4307906,
+        "idle": 47486671,
+        "irq": 412265
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-4300M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 6057625,
+        "nice": 0,
+        "sys": 4307906,
+        "idle": 47486671,
+        "irq": 412265
+      }
+    ],
+    "host": "oguzhan"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7a3bf6db9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10889"
+    },
+    {
+      "pc": "0x00007ff7a3bfa72c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+25596"
+    },
+    {
+      "pc": "0x00007ff7a3bf96d8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+21416"
+    },
+    {
+      "pc": "0x00007ff7a3ce300b",
+      "symbol": "v8::base::CPU::has_sse+37675"
+    },
+    {
+      "pc": "0x00007ff7a44c8a1e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff7a44b0d6a",
+      "symbol": "v8::SharedArrayBuffer::Externalize+842"
+    },
+    {
+      "pc": "0x00007ff7a434256c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff7a434a48f",
+      "symbol": "v8::internal::Heap::OldGenerationSizeOfObjects+4879"
+    },
+    {
+      "pc": "0x00007ff7a4340733",
+      "symbol": "v8::internal::Heap::CollectGarbage+1235"
+    },
+    {
+      "pc": "0x00007ff7a433efc4",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2292"
+    },
+    {
+      "pc": "0x00007ff7a435daa5",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff7a4113e0d",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+3757"
+    },
+    {
+      "pc": "0x00007ff7a457170d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+614605"
+    },
+    {
+      "pc": "0x00007ff7a450a558",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+192280"
+    },
+    {
+      "pc": "0x00007ff7a44e5bbc",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42364"
+    },
+    {
+      "pc": "0x000001baa75c476a",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2152411136,
+    "totalCommittedMemory": 2152411136,
+    "usedMemory": 2146477400,
+    "availableMemory": 47277744,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 2097152,
+        "capacity": 1047328,
+        "used": 451408,
+        "available": 595920
+      },
+      "old_space": {
+        "memorySize": 2093887488,
+        "committedMemory": 2093887488,
+        "capacity": 2090506224,
+        "used": 2090505760,
+        "available": 464
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 297696,
+        "used": 297696,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 1052672,
+        "committedMemory": 1052672,
+        "capacity": 568400,
+        "used": 568400,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 54636544,
+        "committedMemory": 54636544,
+        "capacity": 54618720,
+        "used": 54618720,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3456,
+        "used": 3456,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047328,
+        "used": 0,
+        "available": 1047328
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 114.468,
+    "kernelCpuSeconds": 2.406,
+    "cpuConsumptionPercent": 194.79,
+    "maxRss": 2264915968,
+    "pageFaults": {
+      "IORequired": 759263,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 91,
+      "writes": 111
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "AMD_ENTRYPOINT": "vs/workbench/services/extensions/node/extensionHostProcess",
+    "APPDATA": "C:\\Users\\Lenovo Thinkpad\\AppData\\Roaming",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "asl.log=Destination": "file",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "OGUZHAN",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ESM_OPTIONS": "{\"await\":true}",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Lenovo Thinkpad",
+    "LOCALAPPDATA": "C:\\Users\\Lenovo Thinkpad\\AppData\\Local",
+    "LOGONSERVER": "\\\\OGUZHAN",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\Lenovo Thinkpad\\OneDrive",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\Lenovo Thinkpad\\Anaconda3;C:\\Users\\Lenovo Thinkpad\\Anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\Lenovo Thinkpad\\Anaconda3\\Library\\usr\\bin;C:\\Users\\Lenovo Thinkpad\\Anaconda3\\Library\\bin;C:\\Users\\Lenovo Thinkpad\\Anaconda3\\Scripts;C:\\Users\\Lenovo Thinkpad\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\Lenovo Thinkpad\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\Lenovo Thinkpad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\AppServ\\Apache24\\bin;C:\\AppServ\\php5;C:\\AppServ\\MySQL\\bin;C:\\Users\\Lenovo Thinkpad\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Lenovo Thinkpad\\AppData\\Local\\atom\\bin;C:\\Users\\Lenovo Thinkpad\\AppData\\Roaming\\npm",
+    "Path": "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\Lenovo Thinkpad\\Anaconda3;C:\\Users\\Lenovo Thinkpad\\Anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\Lenovo Thinkpad\\Anaconda3\\Library\\usr\\bin;C:\\Users\\Lenovo Thinkpad\\Anaconda3\\Library\\bin;C:\\Users\\Lenovo Thinkpad\\Anaconda3\\Scripts;C:\\Users\\Lenovo Thinkpad\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\Lenovo Thinkpad\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\Lenovo Thinkpad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\AppServ\\Apache24\\bin;C:\\AppServ\\php5;C:\\AppServ\\MySQL\\bin;C:\\Users\\Lenovo Thinkpad\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Lenovo Thinkpad\\AppData\\Local\\atom\\bin;C:\\Users\\Lenovo Thinkpad\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PIPE_LOGGING": "true",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 60 Stepping 3, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3c03",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "%ProgramFiles%\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:\\Users\\Lenovo Thinkpad\\Desktop\\tum belgeler\\PROGLAMLAMA\\livecoding\\Week-5-Intermediate-JS",
+    "quokka": "{\"globalConfigFile\":\"C:\\\\Users\\\\Lenovo Thinkpad\\\\.quokka\\\\config.json\",\"tempDir\":\"C:\\\\Users\\\\Lenovo Thinkpad\\\\.quokka\\\\data\\\\ymew6\",\"pro\":false,\"stdEsm\":true}",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\LENOVO~1\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\LENOVO~1\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\Public\\Documents\\Wondershare\\CreatorTemp",
+    "undefined": "",
+    "USERDOMAIN": "OGUZHAN",
+    "USERDOMAIN_ROAMINGPROFILE": "OGUZHAN",
+    "USERNAME": "Lenovo Thinkpad",
+    "USERPROFILE": "C:\\Users\\Lenovo Thinkpad",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "VERBOSE_LOGGING": "true",
+    "VSCODE_CWD": "C:\\WINDOWS\\system32",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_IPC_HOOK": "\\\\.\\pipe\\98b64ba8c23e75cf7ac0006e70124681-1.36.1-main-sock",
+    "VSCODE_IPC_HOOK_EXTHOST": "\\\\.\\pipe\\vscode-ipc-f735e6e1-70ff-4c39-9431-35ad8f82c842-sock",
+    "VSCODE_LOGS": "C:\\Users\\Lenovo Thinkpad\\AppData\\Roaming\\Code\\logs\\20190717T072658",
+    "VSCODE_LOG_STACK": "false",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"tr\",\"availableLanguages\":{},\"_languagePackSupport\":true}",
+    "VSCODE_NODE_CACHED_DATA_DIR": "C:\\Users\\Lenovo Thinkpad\\AppData\\Roaming\\Code\\CachedData\\2213894ea0415ee8c85c5eea0d0ff81ecc191529",
+    "VSCODE_PID": "5576",
+    "VSCODE_PREVENT_FOREIGN_INSPECT": "true",
+    "WALLABY_PRODUCTION": "true",
+    "WALLABY_USE_WSL": "false",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\System32\\wshbth.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll"
+  ]
+}
